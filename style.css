@@ -1,0 +1,93 @@
+body {
+    text-align: center;
+    background: linear-gradient(#cd13c6 0%, #1888d1 100%);
+}
+
+h1 {
+    text-shadow: 2px 2px #F8BBDO;
+    font-size: 30px;
+}
+
+#welcome {
+    padding: 20px;
+    font-size: 18;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    background-color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.articles:hover {
+    color: forestgreen;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.innerdiv {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.links {
+    float: left;
+    color: blueviolet;
+    padding: 5px 9px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: deeppink;
+}
+
+a {
+    text-decoration: none;
+}
+
+#myfavbooks a {
+    text-decoration: underline !important;
+    color: skyblue !important;
+    text-shadow: none !important;
+}
+img{
+    transition: transform .2s;
+    border: 10px solid black;
+}
+img:hover {
+   transform: scale(0.9);
+}
+.button{
+  background-color: blueviolet;
+    color: aliceblue;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 20px;
+    display: inline-block;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 17px;
+    margin: 8px auto;
+}
+.active {
+  background-color: #4CAF50;
+}
